@@ -11,7 +11,7 @@ If you have Python installed, you can use its simple HTTP server:
 1.  Open your terminal or command prompt.
 2.  Navigate to the project root directory:
     ```bash
-    cd C:\Users\arthur\Documents\repos\porto\daniarthurwidodo.github.io
+    cd [YOUR_PROJECT_ROOT_DIRECTORY]
     ```
 3.  Run the server:
     ```bash
@@ -26,7 +26,7 @@ If you have PHP installed, you can use its built-in web server:
 1.  Open your terminal or command prompt.
 2.  Navigate to the project root directory:
     ```bash
-    cd C:\Users\arthur\Documents\repos\porto\daniarthurwidodo.github.io
+    cd [YOUR_PROJECT_ROOT_DIRECTORY]
     ```
 3.  Run the server:
     ```bash
@@ -41,7 +41,7 @@ If you have Node.js installed, you can use `npx` to run the `http-server` packag
 1.  Open your terminal or command prompt.
 2.  Navigate to the project root directory:
     ```bash
-    cd C:\Users\arthur\Documents\repos\porto\daniarthurwidodo.github.io
+    cd [YOUR_PROJECT_ROOT_DIRECTORY]
     ```
 3.  Run the server:
     ```bash
