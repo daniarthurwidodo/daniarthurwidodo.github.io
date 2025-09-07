@@ -320,8 +320,8 @@ footer {
 
 .contact-item i {
     color: #64ffda;
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
 }
 
 .contact-item a {
@@ -409,10 +409,12 @@ footer {
     background-color: #64ffda !important;
     color: #0f1419 !important;
     border: none;
-    border-radius: 50px;
+    border-radius: 8px;
     width: auto;
     height: auto;
-    padding: 12px 20px;
+    padding: 15px 25px;
+    white-space: normal;
+    flex-wrap: wrap;
     display: flex;
     align-items: center;
     gap: 8px;
@@ -437,8 +439,8 @@ footer {
 }
 
 .pdf-download-btn i {
-    width: 18px;
-    height: 18px;
+    width: 20px;
+    height: 20px;
 }
 
 
@@ -447,15 +449,13 @@ footer {
     .pdf-download-btn {
         bottom: 20px;
         right: 20px;
-        border-radius: 50%;
-        width: 50px;
-        height: 50px;
-        padding: 0;
-        font-size: 0.8rem;
-    }
-    
-    .pdf-download-btn .btn-text {
-        display: none;
+        border-radius: 8px; /* Keep it rounded, but not circular */
+        width: auto; /* Allow width to adjust to content */
+        height: auto; /* Allow height to adjust to content */
+        padding: 15px 25px;
+    white-space: normal;
+    flex-wrap: wrap; /* Restore padding for text */
+        font-size: 0.9rem; /* Keep consistent font size */
     }
     
     footer {
@@ -467,12 +467,12 @@ footer {
     .pdf-download-btn {
         bottom: 15px;
         right: 15px;
-        width: 45px;
-        height: 45px;
+        width: auto;
+        height: auto;
     }
     
     .pdf-download-btn i {
-        width: 16px;
-        height: 16px;
+        width: 20px;
+        height: 20px;
     }
 }
