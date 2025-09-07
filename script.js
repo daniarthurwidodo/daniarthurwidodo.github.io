@@ -80,13 +80,13 @@ document.addEventListener('DOMContentLoaded', () => {
             doc.text('Contact Information', 20, yPos);
             yPos += 7;
             doc.setFontSize(12);
-            doc.text(`Email: ${data.contact_information.email || 'N/A'}`, 20, yPos);
+            doc.text(`Email: ${data["contact information"].email || 'N/A'}`, 20, yPos);
             yPos += 7;
-            doc.text(`Phone: ${data.contact_information.mobile || 'N/A'}`, 20, yPos);
+            doc.text(`Phone: ${data["contact information"].mobile || 'N/A'}`, 20, yPos);
             yPos += 7;
-            doc.text(`GitHub: ${data.contact_information.github || 'N/A'}`, 20, yPos);
+            doc.text(`GitHub: ${data["contact information"].github || 'N/A'}`, 20, yPos);
             yPos += 7;
-            doc.text(`LinkedIn: ${data.contact_information.linkedin || 'N/A'}`, 20, yPos);
+            doc.text(`LinkedIn: ${data["contact information"].linkedin || 'N/A'}`, 20, yPos);
             yPos += 20;
 
             // Education
