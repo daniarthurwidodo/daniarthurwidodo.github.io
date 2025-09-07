@@ -75,19 +75,31 @@ document.addEventListener('DOMContentLoaded', () => {
             doc.text(splitBio, 20, yPos);
             yPos += (splitBio.length * 7) + 10;
 
-            // Contact Information (placeholders)
+            // Contact Information
             doc.setFontSize(16);
             doc.text('Contact Information', 20, yPos);
             yPos += 7;
             doc.setFontSize(12);
-            doc.text(`Email: ${data.email || 'N/A'}`, 20, yPos);
+            doc.text(`Email: ${data.contact_information.email || 'N/A'}`, 20, yPos);
             yPos += 7;
-            doc.text(`Phone: ${data.mobile || 'N/A'}`, 20, yPos);
+            doc.text(`Phone: ${data.contact_information.mobile || 'N/A'}`, 20, yPos);
             yPos += 7;
-            doc.text(`GitHub: ${data.github || 'N/A'}`, 20, yPos);
+            doc.text(`GitHub: ${data.contact_information.github || 'N/A'}`, 20, yPos);
             yPos += 7;
-            doc.text(`LinkedIn: ${data.linkedin || 'N/A'}`, 20, yPos);
+            doc.text(`LinkedIn: ${data.contact_information.linkedin || 'N/A'}`, 20, yPos);
             yPos += 20;
+
+            // Education
+            if (data.education) {
+                doc.setFontSize(16);
+                doc.text('Education', 20, yPos);
+                yPos += 7;
+                doc.setFontSize(12);
+                doc.text(`${data.education.degree} from ${data.education.institution}`, 20, yPos);
+                yPos += 7;
+                doc.text(`Graduation Year: ${data.education.year}`, 20, yPos);
+                yPos += 20;
+            }
 
             // Skills
             doc.setFontSize(16);
