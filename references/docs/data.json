@@ -43,22 +43,22 @@
         {
             "title": "Project 1",
             "description": "A brief description of the project.",
-            "image": "https://via.placeholder.com/300x200"
+            "image": ""
         },
         {
             "title": "Project 2",
             "description": "A brief description of the project.",
-            "image": "https://via.placeholder.com/300x200"
+            "image": ""
         },
         {
             "title": "Project 3",
             "description": "A brief description of the project.",
-            "image": "https://via.placeholder.com/300x200"
+            "image": ""
         },
         {
             "title": "Project 4",
             "description": "Another brief description of another project.",
-            "image": "https://via.placeholder.com/300x200"
+            "image": ""
         }
     ]
 }
