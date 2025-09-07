@@ -1,10 +1,17 @@
 {
-    "name": "Dani Arthur",
+    "name": "Dani Arthur Widodo",
     "role": "Software Engineer",
-    "email": "dani.arthur@example.com",
-    "github": "https://github.com/daniarthur",
-    "linkedin": "https://www.linkedin.com/in/daniarthur/",
-    "mobile": "+1-234-567-8901",
+    "contact information": {
+        "email": "dani.arthur@example.com",
+        "github": "https://github.com/daniarthur",
+        "linkedin": "https://www.linkedin.com/in/daniarthur/",
+        "mobile": "+1-234-567-8901"
+    },
+    "education": {
+        "degree": "Bachelor of Science in Computer Science",
+        "institution": "University of Technology",
+        "year": "2018"
+    },
     "bio": "Dani is a software engineer with a passion for open-source projects and community building.",
     "skills": ["JavaScript", "Python", "React", "Node.js", "Docker", "GraphQL", "TypeScript"],
     "experience": [
@@ -43,22 +50,26 @@
         {
             "title": "Project 1",
             "description": "A brief description of the project.",
-            "image": "https://placehold.co/1500x800"
+            "image": "https://placehold.co/1500x800",
+            "link": "https://example.com/project1"
         },
         {
             "title": "Project 2",
             "description": "A brief description of the project.",
-            "image": "https://placehold.co/1500x800"
+            "image": "https://placehold.co/1500x800",
+            "link": "https://example.com/project2"
         },
         {
             "title": "Project 3",
             "description": "A brief description of the project.",
-            "image": ""
+            "image": "https://placehold.co/1500x800",
+            "link": "https://example.com/project3"
         },
         {
             "title": "Project 4",
             "description": "Another brief description of another project.",
-            "image": ""
+            "image": "https://placehold.co/1500x800",
+            "link": "https://example.com/project4"
         }
     ]
 }
