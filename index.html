@@ -5,64 +5,113 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dani Arthur Widodo - Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
     <header>
-        <nav>
-            <div class="logo">Dani Arthur Widodo</div>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="#">
+                    <div class="logo" id="logo">Dani Arthur Widodo</div>
+                </a>
+
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-end">
+                    <a class="navbar-item" href="#about">About</a>
+                    <a class="navbar-item" href="#projects">Projects</a>
+                    <a class="navbar-item" href="#contact">Contact</a>
+                </div>
+            </div>
         </nav>
     </header>
 
     <section id="hero">
-        <h1>Welcome to My Portfolio</h1>
-        <p>I'm a passionate web developer with a love for creating beautiful and functional websites.</p>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 id="hero-title">I'm James John.</h1>
+                <p id="hero-subtitle">I'm a fullstack software engineer specializing in building exceptional software. Currently I am focused on building products at <span style="color: #64ffda;">Second Company</span>.</p>
+                <p class="tagline">The world is better with my code in it.</p>
+            </div>
+            <div class="hero-code">
+                <div class="code-snippet">
+                    <div class="code-line"><span class="line-number">1</span><span class="code-tag">&lt;stack&gt;</span></div>
+                    <div class="code-line"><span class="line-number">2</span>  <span class="code-tag">&lt;<span class="code-attr">JavaScript</span>&gt;</span></div>
+                    <div class="code-line"><span class="line-number">3</span>  <span class="code-tag">&lt;<span class="code-attr">React</span>&gt;</span></div>
+                    <div class="code-line"><span class="line-number">4</span>  <span class="code-tag">&lt;<span class="code-attr">Node.js</span>&gt;</span></div>
+                    <div class="code-line"><span class="line-number">5</span>  <span class="code-tag">&lt;<span class="code-attr">TypeScript</span>&gt;</span></div>
+                    <div class="code-line"><span class="line-number">6</span><span class="code-tag">&lt;/stack&gt;</span></div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section id="about">
         <h2>About Me</h2>
-        <p>I am a web developer based in Indonesia. I have a passion for web development and love to create for web and mobile devices. I am a hard-working, dedicated, and motivated individual who is always looking to improve my skills and learn new things.</p>
+        <div class="about-content">
+            <div class="about-text">
+                <p id="about-bio">I'm an experienced Software Engineer with over 5 years of programming experience and 4 years of professional experience building elegant UIs and crafting great APIs.</p>
+                <p>On the frontend I use frameworks like Vue.js and React.js to consume APIs and build scalable applications and on the backend I'm skilled in building RESTful APIs, implementing continuous integration and delivery using GitHub Actions and Circle CI.</p>
+                <p>I'm an avid fan of test-driven development and I believe that no feature is complete unless it is adequately tested.</p>
+                <p>I love programming, coffee, gaming and everything in-between.</p>
+            </div>
+            <div class="about-image">
+                <img src="assets/images/arthur.jpeg" alt="Arthur Widodo" class="profile-image">
+            </div>
+        </div>
     </section>
 
     <section id="projects">
         <h2>My Projects</h2>
-        <div class="project-container">
-            <div class="project-card">
-                <img src="https://via.placeholder.com/300x200" alt="Project 1">
-                <h3>Project 1</h3>
-                <p>A brief description of the project.</p>
-            </div>
-            <div class="project-card">
-                <img src="https://via.placeholder.com/300x200" alt="Project 2">
-                <h3>Project 2</h3>
-                <p>A brief description of the project.</p>
-            </div>
-            <div class="project-card">
-                <img src="https://via.placeholder.com/300x200" alt="Project 3">
-                <h3>Project 3</h3>
-                <p>A brief description of the project.</p>
-            </div>
+        <div class="project-container" id="project-container">
+            <!-- Projects will be dynamically loaded here -->
         </div>
     </section>
 
     <section id="contact">
         <h2>Contact Me</h2>
+        <div class="contact-info" id="contact-info">
+            <!-- Contact information will be dynamically loaded here -->
+        </div>
         <form>
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
-            <textarea name="message" placeholder="Your Message" required></textarea>
+            <div class="input-group">
+                <i data-lucide="user"></i>
+                <input type="text" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="input-group">
+                <i data-lucide="mail"></i>
+                <input type="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="input-group">
+                <i data-lucide="message-square"></i>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+            </div>
             <button type="submit">Send Message</button>
         </form>
     </section>
 
     <footer>
+        <div class="social-icons" id="social-icons">
+            <a href="https://github.com/daniarthur" target="_blank"><i data-lucide="github"></i></a>
+            <a href="https://www.linkedin.com/in/daniarthur/" target="_blank"><i data-lucide="linkedin"></i></a>
+        </div>
         <p>&copy; 2025 Dani Arthur Widodo. All rights reserved.</p>
     </footer>
 
+    <button id="downloadPdfBtn" class="pdf-download-btn">
+        <i data-lucide="download"></i>
+        <span class="btn-text">Download CV</span>
+    </button>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

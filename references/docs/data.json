@@ -1,0 +1,64 @@
+{
+    "name": "Dani Arthur",
+    "role": "Software Engineer",
+    "email": "dani.arthur@example.com",
+    "github": "https://github.com/daniarthur",
+    "linkedin": "https://www.linkedin.com/in/daniarthur/",
+    "mobile": "+1-234-567-8901",
+    "bio": "Dani is a software engineer with a passion for open-source projects and community building.",
+    "skills": ["JavaScript", "Python", "React", "Node.js", "Docker", "GraphQL", "TypeScript"],
+    "experience": [
+        {
+            "company": "Tech Solutions Inc.",
+            "position": "Frontend Developer",
+            "duration": "Jan 2020 - Present",
+            "responsibilities": [                   
+                "Developed and maintained the front end of the company website using React.",
+                "Collaborated with designers to create a seamless user experience.",
+                "Optimized web applications for maximum speed and scalability."
+            ]
+        },
+        {
+            "company": "Innovate Corp.",
+            "position": "Backend Developer",
+            "duration": "Jun 2018 - Dec 2019",
+            "responsibilities": [
+                "Designed and implemented RESTful APIs for the company's flagship product.",
+                "Worked with databases like PostgreSQL and MongoDB.",
+                "Wrote unit and integration tests to ensure code quality."
+            ]
+        },
+        {
+            "company": "Startup Hub",
+            "position": "Software Engineer Intern",
+            "duration": "May 2017 - Aug 2017",
+            "responsibilities": [
+                "Assisted in the development of a new mobile application.",
+                "Participated in daily stand-ups and sprint planning meetings.",
+                "Gained experience with agile development methodologies."
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "title": "Project 1",
+            "description": "A brief description of the project.",
+            "image": "https://via.placeholder.com/300x200"
+        },
+        {
+            "title": "Project 2",
+            "description": "A brief description of the project.",
+            "image": "https://via.placeholder.com/300x200"
+        },
+        {
+            "title": "Project 3",
+            "description": "A brief description of the project.",
+            "image": "https://via.placeholder.com/300x200"
+        },
+        {
+            "title": "Project 4",
+            "description": "Another brief description of another project.",
+            "image": "https://via.placeholder.com/300x200"
+        }
+    ]
+}
